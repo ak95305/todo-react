@@ -20,7 +20,7 @@ function Task(props) {
     };
 
     const checkBtn = (e) => {
-        console.log(props.index);
+        // console.log(props.index);
         // let y = 
         if (e.target.checked) {
             setCross(true);

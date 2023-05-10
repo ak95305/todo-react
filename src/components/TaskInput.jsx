@@ -5,9 +5,6 @@ import { taskData } from "./TaskData";
 import StatePool from "state-pool";
 
 function TaskInput() {
-
-    console.log(taskData);
-
     const selector = (taskData) => taskData;
     const patcher = (taskData, data) => taskData.push(data);
     
