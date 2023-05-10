@@ -1,10 +1,11 @@
+import AppBox from "./components/AppBox"
 
 
 function App() {
 
   return (
-    <div className="App">
-      AMAN
+    <div className="app">
+      <AppBox />
     </div>
   )
 }
